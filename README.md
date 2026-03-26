@@ -1,3 +1,4 @@
+```markdown
 # 📚 RevisaAi Agent
 Sistema automatizado de gestão de ciclos de estudo e retenção de conhecimento, utilizando arquitetura stateless e segurança robusta com JWT.
 
@@ -40,6 +41,7 @@ graph TD
     C -->|Entities| E(Repository Layer)
     E -->|SQL| F[(PostgreSQL)]
     D -.->|Authorize| B
+```
 
 ---
 
@@ -48,7 +50,7 @@ O backend foi desenvolvido seguindo os princípios **SOLID** e utilizando padrõ
 
 ### **1. Repository Pattern 📦**
 **Localização:** `src/main/java/com/RevisaAi/JavaProjects/repository/`  
-**Propósito:** Abstrair o acesso a dados, permitindo que a lógica de negócio seja independente do banco.
+**Propósito:** Abstrair o acesso a dados, permitindo que a lógica de negócio seja independente da implementação do banco.
 > **Benefício:** Facilita a manutenção e a criação de mocks para testes de integração e unitários.
 
 ### **2. DTO Pattern (Data Transfer Object) 📤**
@@ -80,12 +82,12 @@ RevisaAi-Backend/
 ---
 
 ## 🛠️ Tecnologias
-* **Linguagem:** Java 17+ (LTS)
-* **Framework:** Spring Boot 3.x
-* **Segurança:** Spring Security & JWT (Auth0)
-* **Banco de Dados:** PostgreSQL
-* **Documentação:** SpringDoc OpenAPI (Swagger UI)
-* **Build:** Maven
+- **Linguagem:** Java 17+ (LTS)
+- **Framework:** Spring Boot 3.x
+- **Segurança:** Spring Security & JWT (Auth0)
+- **Banco de Dados:** PostgreSQL
+- **Documentação:** SpringDoc OpenAPI (Swagger UI)
+- **Ferramenta de Build:** Maven
 
 ---
 
@@ -98,7 +100,7 @@ RevisaAi-Backend/
     spring.datasource.username=seu_usuario
     spring.datasource.password=sua_senha
     ```
-4.  **Executar a aplicação:** `./mvnw spring-boot:run`
+4.  **Executar:** `./mvnw spring-boot:run`
 
 ---
 
