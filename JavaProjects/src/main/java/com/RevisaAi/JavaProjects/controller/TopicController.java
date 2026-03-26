@@ -39,7 +39,7 @@ public class TopicController {
     }
 
     @PostMapping("/create") 
-    public ResponseEntity<TopicResponseDTO> createTopic(@Valid @RequestBody TopicRequestDTO dto) { // O @RequestBody é OBRIGATÓRIO aqui
+    public ResponseEntity<TopicResponseDTO> createTopic(@Valid @RequestBody TopicRequestDTO dto) { 
         return ResponseEntity.ok(topicService.createTopic(dto));
     }
 
