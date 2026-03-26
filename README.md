@@ -1,4 +1,3 @@
-```markdown
 # 📚 RevisaAi Agent
 Sistema automatizado de gestão de ciclos de estudo e retenção de conhecimento, utilizando arquitetura stateless e segurança robusta com JWT.
 
