@@ -32,7 +32,7 @@ build/
 ### VS Code ###
 .vscode/
 
-### VS Code (Se não estiver lá embaixo) ###
+### VS Code ###
 .vscode/
 .factorypath
 
